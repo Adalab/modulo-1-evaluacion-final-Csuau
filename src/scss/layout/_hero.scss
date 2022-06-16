@@ -1,17 +1,17 @@
-.hero{
-    background-image: url(../images/hero.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+.hero {
+  background-image: url(../images/hero.jpg);
+  height: 100vh;
 
+  background-size: cover;
+  background-position: center;
 
-    &-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 100%;
-gap: 60px;
-    }
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    gap: 60px;
+  }
 }

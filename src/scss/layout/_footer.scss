@@ -1,5 +1,28 @@
 .footer {
   background-color: $colorPrimary;
+  &-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    padding-bottom: 20px;
+  }
+  &Item {
+    padding-top: 50px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+.rrss {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+.arrow {
+  display: flex;
+  justify-content: flex-end;
+  transform: translateX(-30px);
+  padding-bottom: 20px;
 }

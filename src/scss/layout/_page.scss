@@ -1,12 +1,12 @@
 .openSpaces {
   background-color: $colorSecondary;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
   &-container {
     display: grid;
     grid-template-rows: 100px 1fr 1fr 1fr;
-    row-gap: 60px;
+    row-gap: 50px;
     text-align: center;
   }
 
@@ -15,9 +15,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
+}
+.imgItem {
+  padding-bottom: 40px;
 }
 
 .banner {
@@ -31,13 +34,22 @@
     justify-content: center;
     align-items: center;
   }
+
+  &-button {
+    padding-top: 30px;
+  }
+
+  &Img {
+    padding-bottom: 10px;
+  }
 }
+
 .mediaContent {
   display: grid;
   grid-template-rows: 1fr 1fr;
   background-color: $colorSecondary;
   &-button {
-    margin-top: 50px;
+    margin-top: 45px;
   }
 }
 .box1 {
@@ -49,8 +61,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .box2 {
