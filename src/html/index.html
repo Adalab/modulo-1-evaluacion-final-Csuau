@@ -15,46 +15,65 @@
 </head>
 
 <body>
-    <header>
-        <a class="Menu" href=""><i class="fa-solid fa-bars"></i></a>
-        <div> <img class="logo" src="./assets/images/logo.png" alt="logo"> </div>
+    <header class="header">
+        <div class="container header-container">
+            <a class="menuBurger" href="https://adalab.es/"><i class=" fa-solid fa-bars"></i></a>
+            <img class="logo" src="./assets/images/logo.png" alt="logo">
+        </div>
+
+
     </header>
-    <div class="hero">
-        <img class="heroImage" src="./assets/images/hero.jpg" alt="hero">
-        <h1 class="heroTitle">Disfruta creando espacios</h1>
-        <button class="heroButton">Comprar ahora</button>
+    <div id="top" class="hero">
+        <!--img class="heroImage imgResponsive" src="./assets/images/hero.jpg" alt="hero"-->
+        <div class="container hero-container">
+            <h1 class="heroTitle textStyle3">Disfruta creando espacios</h1>
+            <button class="heroButton buttonStyle">Comprar ahora</button>
+        </div>
+
 
     </div>
     <main class="page">
-        <section class="PageSection1">
-            <h2 class="section1Title">Volverse organizado se siente mejos con open spaces</h2>
-            <div class="section1.Item1">
-                <img src="./assets/images/icon_1.png" alt="Icon1">
-                <h3>Lo que necesitas</h3>
-                <p>Una linea de productos diseñados para todos tus espacios</p>
-            </div>
-            <div class="section1-Item2">
-                <img src="./assets/images/icon_2.png" alt="Icon2">
-                <h3>Materias primas sustentables</h3>
-                <p>Todos los productos con materias primas sustentables</p>
-            </div>
-            <div class="section1-Item3">
-                <img src="./assets/images/icon_3.png" alt="Icon3">
-                <h3>Guía</h3>
-                <p>Soporte y asesoramiento para ayudarte con tu objetivo</p>
+        <section class="openSpaces">
+            <div class="container openSpaces-container">
+                <h2 class="openSpaces-Title textStyle3">Volverse organizado se siente mejos con<span class="uppercase">
+                        open spaces</span>
+                </h2>
+                <div class="openSpaces-item openSpaces-item1">
+                    <img src="./assets/images/icon_1.png" alt="Icon1">
+                    <h3 class="textStyle4">Lo que necesitas</h3>
+                    <p class="textStyle">Una linea de productos diseñados para todos tus espacios</p>
+                </div>
+                <div class="openSpaces-item openSpaces-item2">
+                    <img src="./assets/images/icon_2.png" alt="Icon2">
+                    <h3 class="textStyle4">Materias primas sustentables</h3>
+                    <p class="textStyle">Todos los productos con materias primas sustentables</p>
+                </div>
+                <div class="openSpaces-item openSpaces-item3">
+                    <img src="./assets/images/icon_3.png" alt="Icon3">
+                    <h3 class="textStyle4">Guía</h3>
+                    <p class="textStyle">Soporte y asesoramiento para ayudarte con tu objetivo</p>
+                </div>
             </div>
         </section>
-        <section class="PageSection2">
-            <img src="./assets/images/icon_4.png" alt="Icon4">
-            <h2>Envío gratis garantizado</h2>
-            <h3>Envío gratis en compras desde 100</h3>
-            <button class="section2-button">Comprar ahora</button>
+        <section class="banner ">
+            <div class="container banner-container">
+                <img src="./assets/images/icon_4.png" alt="Icon4">
+                <h2 class="textStyle3 textWhite">Envío gratis garantizado</h2>
+                <h3 class="textStyle5 textWhite">Envío gratis en compras desde 100</h3>
+                <button class=" buttonStyle buttonStyle-link banner-button">Comprar ahora</button>
+            </div>
         </section>
-        <section class="PageSection3">
-            <h2>Disfruta creando espacios</h2>
-            <h3>Una línea de productos diseñados para todos tus espacios</h3>
-            <button class="section3-button">Comprar ahora</button>
-            <img class="section3-image" src="./assets/images/creando-espacios.jpg" alt="creando-espacios">
+        <section class="mediaContent">
+            <div class="box1">
+                <h2 class="textStyle3">Disfruta creando espacios</h2>
+                <p class="textStyle5 textColor-primary">Una línea de productos diseñados para todos tus espacios</p>
+                <button class="mediaContent-button buttonStyle">Comprar ahora</button>
+            </div>
+            <div class="box2">
+                <!--img class="section3-image imgResponsive" src="./assets/images/creando-espacios.jpg"
+                        alt="creando-espacios"-->
+            </div>
+
         </section>
     </main>
     <footer class="footer">
@@ -62,10 +81,10 @@
             <h3>Tienda</h3>
             <nav>
                 <ol>
-                    <li>Productos</li>
-                    <li>Cajoneras</li>
-                    <li>Para toda la casa</li>
-                    <li>Habitaciones</li>
+                    <li> <a href="https://adalab.es/">Productos</a> </li>
+                    <li> <a href="https://adalab.es/">Cajoneras</a> </li>
+                    <li> <a href="https://adalab.es/">Para toda la casa</a> </li>
+                    <li> <a href="https://adalab.es/"> Habitaciones</a></li>
                 </ol>
             </nav>
 
@@ -74,10 +93,10 @@
             <h3>Nosotros</h3>
             <nav>
                 <ol>
-                    <li>Nuestra guía</li>
-                    <li>Nuestro diseño</li>
-                    <li>Nuestra historia</li>
-                    <li>Ayuda</li>
+                    <li><a href="https://adalab.es/">Nuestra guía</a> </li>
+                    <li> <a href="https://adalab.es/">Nuestro diseño</a> </li>
+                    <li><a href="https://adalab.es/">Nuestra historia</a> </li>
+                    <li> <a href="https://adalab.es/">Ayuda</a> </li>
                 </ol>
             </nav>
         </section>
@@ -86,7 +105,7 @@
             <nav>
                 <ol>
                     <li>ayuda@openspaces.com</li>
-                    <li>Socios</li>
+                    <li> <a href="https://adalab.es/">Socios</a> </li>
                 </ol>
             </nav>
             <nav>
@@ -105,7 +124,7 @@
 
         </section>
         <section class="Arrow">
-            <a href=""><i class="fa-solid fa-arrow-up"></i></a>
+            <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
         </section>
 
     </footer>

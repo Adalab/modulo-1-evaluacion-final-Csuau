@@ -1,0 +1,60 @@
+.openSpaces {
+  background-color: $colorSecondary;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  &-container {
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr 1fr;
+    row-gap: 60px;
+    text-align: center;
+  }
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.banner {
+  background-color: $colorOrange;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.mediaContent {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-color: $colorSecondary;
+  &-button {
+    margin-top: 50px;
+  }
+}
+.box1 {
+  max-width: 340px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.box2 {
+  background-image: url(../images/creando-espacios.jpg);
+  background-size: cover;
+  width: 100%;
+}

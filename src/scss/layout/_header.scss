@@ -1,0 +1,28 @@
+.header{
+
+    padding: 20px 35px;
+    position: fixed;
+    background-color: transparent;
+    z-index: 1;
+    width: 100%;
+   &-container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+}
+.imgResponsive{
+    max-width: 100%;
+    height: auto;
+}
+.menuBurger{
+
+position: absolute;
+left: 40px;
+
+}
+.logo{
+   transform: scale(1);
+
+}
+
