@@ -1,12 +1,12 @@
 .textStyle2 {
-  font-family: $FontPrimari;
+  font-family: $FontPrimary;
   color: $colorPrimary;
   font-size: 36px;
   font-weight: 700;
 }
 
 .textStyle3 {
-  font-family: $FontPrimari;
+  font-family: $FontPrimary;
   color: $colorPrimary;
   font-size: 24px;
   font-weight: 700;
@@ -14,7 +14,7 @@
 }
 
 .textStyle4 {
-  font-family: $FontPrimari;
+  font-family: $FontPrimary;
   color: $colorPrimary;
   font-size: 20px;
   font-weight: 700;
@@ -22,21 +22,21 @@
 }
 
 .textStyle {
-  font-family: $FontPrimari;
+  font-family: $FontPrimary;
   color: $colorPrimary;
   font-size: 16px;
   line-height: 30px;
 }
 
 .textStyle5 {
-  font-family: $FontPrimari;
+  font-family: $FontPrimary;
   color: $colorAlternativeText;
   font-size: 14px;
   line-height: 20px;
 }
 
 .textStyle6 {
-  font-family: $FontPrimari;
+  font-family: $FontPrimary;
   color: $colorAlternativeText;
   font-size: 20px;
   font-weight: 700;
@@ -52,7 +52,7 @@
 }
 
 .buttonStyle {
-  font-family: $FontPrimari;
+  font-family: $FontPrimary;
   color: $colorWhite;
   font-size: 16px;
   font-weight: 700;
@@ -60,6 +60,11 @@
   padding: 12px 24px;
   border-style: none;
   width: 176px;
+
+  &:hover {
+    background-color: $colorWhite;
+    color: $colorPrimary;
+  }
   &-link {
     background-color: transparent;
     text-decoration: underline;
