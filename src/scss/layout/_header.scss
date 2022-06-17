@@ -4,6 +4,7 @@
   background-color: transparent;
   z-index: 1;
   width: 100%;
+
   &-container {
     display: flex;
     justify-content: center;
@@ -32,7 +33,6 @@
 
   @media all and(min-width: 1728px) {
     display: flex;
-
     position: absolute;
     left: 0;
   }
