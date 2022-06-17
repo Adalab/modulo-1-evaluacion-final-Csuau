@@ -11,6 +11,9 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 38px;
+  @media all and(min-width: 900px) {
+    font-size: 36px;
+  }
 }
 
 .textStyle4 {
@@ -60,6 +63,7 @@
   padding: 12px 24px;
   border-style: none;
   width: 176px;
+  text-transform: capitalize;
 
   &:hover {
     background-color: $colorWhite;
@@ -68,6 +72,7 @@
   &-link {
     background-color: transparent;
     text-decoration: underline;
+    text-transform: none;
   }
 }
 

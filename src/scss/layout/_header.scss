@@ -1,28 +1,27 @@
-.header{
-
-    padding: 20px 35px;
-    position: fixed;
-    background-color: transparent;
-    z-index: 1;
-    width: 100%;
-   &-container{
+.header {
+  padding: 20px 35px;
+  position: absolute;
+  background-color: transparent;
+  z-index: 1;
+  width: 100%;
+  &-container {
     display: flex;
-   justify-content: center;
-   align-items: center;
-   }
+    justify-content: center;
+    align-items: center;
+  }
+  @media all and(min-width: 900px) {
+    padding-top: 40px;
+  }
 }
-.imgResponsive{
-    max-width: 100%;
-    height: auto;
+.imgResponsive {
+  max-width: 100%;
+  height: auto;
 }
-.menuBurger{
-
-position: absolute;
-left: 40px;
-
+.menuBurger {
+  position: fixed;
+  left: 40px;
+  @media all and(min-width: 900px) {
+    left: 80px;
+    transform: scale(1.2);
+  }
 }
-.logo{
-   transform: scale(1);
-
-}
-

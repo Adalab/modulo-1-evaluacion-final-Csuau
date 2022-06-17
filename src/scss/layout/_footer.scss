@@ -5,6 +5,13 @@
     flex-direction: column;
     padding-left: 120px;
     padding-bottom: 20px;
+    @media all and(min-width:900px) {
+      flex-direction: row;
+      gap: 120px;
+      padding-bottom: 50px;
+      padding-top: 20px;
+      padding-left: 60px;
+    }
   }
   &Item {
     padding-top: 50px;
@@ -19,10 +26,17 @@
   gap: 20px;
   padding-top: 30px;
   font-size: 20px;
+  @media all and(min-width:900px) {
+    padding-top: 20px;
+  }
 }
 .arrow {
   display: flex;
   justify-content: flex-end;
   transform: translateX(-30px);
   padding-bottom: 20px;
+  @media all and(min-width:900px) {
+    transform: translateY(-70px);
+    padding-right: 60px;
+  }
 }
