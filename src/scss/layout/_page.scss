@@ -24,17 +24,26 @@
       padding-left: 30px;
       padding-right: 30px;
     }
+    @media all and(min-width: 1728px) {
+      width: 900px;
+      line-height: 50px;
+      margin: 0 auto;
+      text-align: center;
+    }
   }
   &-item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding-left: 60px;
     padding-right: 60px;
     @media all and(min-width:900px) {
       padding-left: 30px;
       padding-right: 30px;
+    }
+    @media all and(min-width: 1728px) {
+      width: 270px;
+      margin: 0 auto;
     }
   }
 }
@@ -79,6 +88,11 @@
   @media all and(min-width:900px) {
     grid-template-rows: 1fr 480px;
   }
+
+  @media all and(min-width:1728px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
   &-button {
     margin-top: 45px;
     @media all and(min-width:900px) {
@@ -87,7 +101,7 @@
   }
 }
 .box1 {
-  max-width: 400px;
+  max-width: 360px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -102,8 +116,15 @@
     padding-bottom: 100px;
     max-width: 500px;
   }
+  @media all and(min-width:1728px) {
+    padding-top: 170px;
+    padding-bottom: 170px;
+    align-items: flex-start;
+    text-align: left;
+    width: 400px;
+  }
   &-paragraph {
-    max-width: 400px;
+    max-width: 300px;
   }
 }
 

@@ -8,20 +8,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
   }
   @media all and(min-width: 900px) {
     padding-top: 40px;
   }
 }
-.imgResponsive {
-  max-width: 100%;
-  height: auto;
-}
+
 .menuBurger {
   position: fixed;
   left: 40px;
+  color: $colorPrimary;
   @media all and(min-width: 900px) {
     left: 80px;
     transform: scale(1.2);
+  }
+  @media all and(min-width: 1728px) {
+    display: none;
+  }
+}
+.menu {
+  display: none;
+
+  @media all and(min-width: 1728px) {
+    display: flex;
+
+    position: absolute;
+    left: 0;
+  }
+  &-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    a {
+      text-decoration: none;
+    }
   }
 }
